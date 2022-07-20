@@ -1,0 +1,30 @@
+.u-table-entity:hover  {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    z-index: 5000;
+    
+}
+
+.u-table-entity {
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.0);
+    
+}
+
+tr:hover {
+    transition: all 0.25s ease-in-out;
+    /* transform: scale(1.05); */
+    /* transform: translate(text) */
+    font-weight: bold;
+    
+}
+
+tr {
+    transition: all 0.25s ease-in-out;
+    /* transform: scale(1.0); */
+    
+}
+
+input{
+    border: 1px solid gray !important
+}
